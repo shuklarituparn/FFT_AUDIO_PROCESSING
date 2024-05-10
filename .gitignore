@@ -1,0 +1,7 @@
+# External libraries
+lib
+.idea
+# Executable
+cppaudiocapture
+cppaudiogenerate
+
