@@ -1,7 +1,17 @@
 # External libraries
+lib
 
+# IDE
 .idea
-# Executable
-cppaudiocapture
-cppaudiogenerate
 
+# Executable
+bin/cppaudiocapture
+bin/cppaudiogenerate
+
+
+/lib/fftw-3.3.10
+/lib/portaudio/
+
+
+# File for notekeeping
+misc/

@@ -23,20 +23,39 @@ Go to the project directory
 
 ### Makefile
 
-- To run the audio generation program, type the following command in the terminal
+- To install the required dependencies run the following commands while in the root directory
+
+ ```bash
+ 
+   make install_fftw
+ 
+ ```
+
+- To compile the audio generation program, type the following command in the terminal
 
 ```bash
     make cppaudiogenerate
-    ./cppaudiogenerate
 ```
-The program will ask you the frequency of the audio file to generate and the length
+
+- To run the audio generation program, type the following command in the terminal
+
+```bash
+    .bin/cppaudiogenerate
+```
+The program will ask you the frequency of the audio file to generate and the length and will generate a ```.WAVE``` audio file
+
+- To compile the audio capture program, type the following command in the terminal
+
+```bash
+    make cppaudiocapture
+```
 
 - To run the audio capture program, type the following command in the terminal
 
 ```bash
-    make cppaudiocapture
     ./cppaudiocapture
 ```
+
 
 You will see an audio analyzer on the terminal, by default it will run for 30 seconds
 
