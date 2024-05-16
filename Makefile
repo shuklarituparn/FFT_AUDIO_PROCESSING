@@ -24,5 +24,5 @@ install_fftw: install_deps
 	cd lib/fftw-3.3.10 && ./configure && $(MAKE) -j && sudo $(MAKE) install
 
 clean:
-	rm -f $(EXEC) $(GEN)
+	rm -f $(OUTPUT_DIR)/$(EXEC) $(GEN)
 	rm -f "./test.wav"
