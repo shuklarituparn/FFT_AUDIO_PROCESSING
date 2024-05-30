@@ -1,7 +1,10 @@
 
 # FFT AUDIO_PROCESSING
 
-
+<p align="center">
+  <img src="docs/fftw-logo-med.gif" width="400" height="200">
+  <img src="docs/ISO_C++_Logo.svg.png" width="200" height="200">
+</p>
 
 Creating and Processing Audio using FFT
 ## Run Locally
